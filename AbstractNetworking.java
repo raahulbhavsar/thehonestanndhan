@@ -25,16 +25,7 @@ import org.json.JSONObject;
  */
 public abstract class AbstractNetworking implements Response.ErrorListener, Response.Listener<String> {
 
-//    protected static final String BASE_URL_STAGGING  = "http://192.168.0.51:804/";
-//    protected static final String BASE_URL_STAGGING  = "http://10.0.2.33:804/";
-//    public static final boolean isLive = true;
-//    test;
 
-    // for stagging
-//    protected static final String BASE_URL_STAGGING  = "http://192.168.0.51:804/";
-    // for live
-//    protected static final String BASE_URL = BaseUrls.getBaseUrl();
-//    protected static final String BASE_URL_STAGGING  = "http://54.169.14.5:8085/XBAdminMobileAPIServices/";
 
     public static final boolean isLive = false;
 
